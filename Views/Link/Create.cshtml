@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Получение короткого URL для Вашей ссылки</h1>
+<div class="form-group row">
+    <label class="col-md-2 col-form-label">Url:</label>
+    <div class="col-md-7">
+        <input type="text" id="url" class="form-control" />
+    </div>
+    <div class="fcol-md-3">
+        <input type="button" id="urlBtn" value="Получить короткий URL" class="btn btn-dark" />
+    </div>
+</div>
+   
+    
+
+<div id="res"></div>
+@section Scripts{
+    <script type="text/javascript" src="~/js/site.js">
+        
+    </script>
+}
+
